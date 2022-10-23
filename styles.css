@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    float: left;
+    background: brown;
+    color: white;
+    width: 150px;
+    line-height: 150px;
+    text-align: center;
+    margin: 10px;
+    display: none;
+}
+
+.show{
+    display: block;
+}
+.btn{
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 12px 16px;
+    background: white;
+    cursor: pointer;
+}
+.btn:hover{
+    background: rgb(64, 95, 43);
+}
